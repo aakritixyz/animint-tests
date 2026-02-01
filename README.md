@@ -22,6 +22,6 @@ This repository contains all my Animint projects, organized by difficulty. Click
  
 - **Monte Carlo Sample Mean
   - Demo: [Live](https://aakritixyz.github.io/mc-sample-mean-test/)
-  - Source Code: [GitHub](mc-sample-mean-test/)
+  - Source Code: [GitHub]([mc-sample-mean-test/](https://github.com/aakritixyz/mc-sample-mean-test))
 
 ---
