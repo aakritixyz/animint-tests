@@ -19,5 +19,9 @@ This repository contains all my Animint projects, organized by difficulty. Click
 - **WorldBank Visualisation**  
   - Demo: [Live](https://aakritixyz.github.io/worldbank-animint-test/)  
   - Source Code: [GitHub](https://github.com/aakritixyz/worldbank-animint-test)
+ 
+- **Monte Carlo Sample Mean
+  - Demo: [Live](https://aakritixyz.github.io/mc-sample-mean-test/)
+  - Source Code: [GitHub](mc-sample-mean-test/)
 
 ---
