@@ -8,6 +8,10 @@ This repository contains all my Animint projects, organized by difficulty. Click
 - **Ten Points Test**  
   - Demo: [Live](https://aakritixyz.github.io/ten-points-animint/)  
   - Source Code: [GitHub](https://github.com/aakritixyz/ten-points-animint)
+ 
+- **Iris Visualisation**  
+  - Demo: [Live](https://aakritixyz.github.io/iris-animint-test/)  
+  - Source Code: [GitHub](https://github.com/aakritixyz/iris-animint-test)
 
 ---
 
@@ -27,6 +31,7 @@ This repository contains all my Animint projects, organized by difficulty. Click
 - **Buffon's Needle Simulation**  
   - Demo: [Live](https://aakritixyz.github.io/buffon-needle-test/)  
   - Source Code: [GitHub](https://github.com/aakritixyz/buffon-needle-test)
+ 
 ---
 
 
