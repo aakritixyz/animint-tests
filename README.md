@@ -26,5 +26,5 @@ This repository contains all my Animint projects, organized by difficulty. Click
 
 - **Buffon's Needle Simulation**  
   - Demo: [Live](https://aakritixyz.github.io/buffon-needle-test/)  
-  - Source Code: [GitHub](https://github.com/aakritixyz/animint-tests/tree/main/buffon-needle-animint-test)
+  - Source Code: [GitHub](https://github.com/aakritixyz/buffon-needle-test)
 ---
