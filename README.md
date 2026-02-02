@@ -25,6 +25,6 @@ This repository contains all my Animint projects, organized by difficulty. Click
   - Source Code: [GitHub](https://github.com/aakritixyz/mc-sample-mean-test)
 
 - **Buffon's Needle Simulation**  
-  - Demo: [Live](https://aakritixyz.github.io/buffon-needle-animint-test/)  
+  - Demo: [Live](https://aakritixyz.github.io/buffon-needle-test/)  
   - Source Code: [GitHub](https://github.com/aakritixyz/animint-tests/tree/main/buffon-needle-animint-test)
 ---
