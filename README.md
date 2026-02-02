@@ -28,3 +28,6 @@ This repository contains all my Animint projects, organized by difficulty. Click
   - Demo: [Live](https://aakritixyz.github.io/buffon-needle-test/)  
   - Source Code: [GitHub](https://github.com/aakritixyz/buffon-needle-test)
 ---
+
+
+Note: Some animations (e.g. k-means, Sample Mean Monte Carlo) have also been independently ported by other contributors. This repository contains my own implementation focused on clarity, testing, and animint best practices.
