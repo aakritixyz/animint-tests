@@ -32,6 +32,10 @@ This repository contains all my Animint projects, organized by difficulty. Click
   - Demo: [Live](https://aakritixyz.github.io/buffon-needle-test/)  
   - Source Code: [GitHub](https://github.com/aakritixyz/buffon-needle-test)
  
+- **Rosling Bubbles Test**  
+  - Demo: [Live](https://aakritixyz.github.io/rosling-bubbles-test/)  
+  - Source Code: [GitHub](https://github.com/aakritixyz/rosling-bubbles-test)
+ 
 ---
 
 
