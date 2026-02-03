@@ -1,0 +1,529 @@
+{
+ "geoms": {
+ "geom1_point_sepalPlot": {
+ "geom": "point",
+"classed": "geom1_point_sepalPlot",
+"aes": {
+ "x": "Sepal.Length",
+"y": "Sepal.Width",
+"fill": "Species",
+"key": "id",
+"clickSelects": "Species",
+"showSelected1": "Species" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        4,
+"shape":       21,
+"alpha":      0.6,
+"clickSelects": "Species",
+"showSelected": "Species",
+"help_clickSelects": "Species",
+"help_showSelected": "Species" 
+},
+"types": {
+ "fill": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "integer",
+"clickSelects": "factor",
+"showSelected1": "factor",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom2_point_petalPlot": {
+ "geom": "point",
+"classed": "geom2_point_petalPlot",
+"aes": {
+ "x": "Petal.Length",
+"y": "Petal.Width",
+"fill": "Species",
+"key": "id",
+"showSelected1": "Species" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        4,
+"shape":       21,
+"showSelected": "Species",
+"help_showSelected": "Species" 
+},
+"types": {
+ "fill": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "integer",
+"showSelected1": "factor",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"duration": {
+ "Species":      500 
+},
+"selectors": {
+ "Species": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"clickSelects": true,
+"showSelected": true,
+"selected": [ "setosa", "versicolor", "virginica" ],
+"levels": [ "setosa", "versicolor", "virginica" ],
+"update": [
+ "geom1_point_sepalPlot",
+"geom2_point_petalPlot" 
+],
+"duration":      500 
+} 
+},
+"plots": {
+ "sepalPlot": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "Species": {
+ "guide": "legend",
+"geoms": "point",
+"title": "Species",
+"class": "Species",
+"selector": "Species",
+"is_discrete": true,
+"legend_type": "fill",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pointfill": "#FF0000",
+"pointshape":       21,
+"pointcolour": "#000000",
+"pointsize":        4,
+"pointalpha":      0.6,
+"pointstroke":      0.5,
+"label": "setosa" 
+},
+{
+ "pointfill": "#00FF00",
+"pointshape":       21,
+"pointcolour": "#000000",
+"pointsize":        4,
+"pointalpha":      0.6,
+"pointstroke":      0.5,
+"label": "versicolor" 
+},
+{
+ "pointfill": "#0000FF",
+"pointshape":       21,
+"pointcolour": "#000000",
+"pointsize":        4,
+"pointalpha":      0.6,
+"pointstroke":      0.5,
+"label": "virginica" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        5,
+       6,
+       7,
+       8 
+] 
+],
+"y": [
+ [
+        2,
+     2.5,
+       3,
+     3.5,
+       4,
+     4.5 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+      4.5,
+       5,
+     5.5,
+       6,
+     6.5,
+       7,
+     7.5,
+       8 
+] 
+],
+"y": [
+ [
+        2,
+    2.25,
+     2.5,
+    2.75,
+       3,
+    3.25,
+     3.5,
+    3.75,
+       4,
+    4.25,
+     4.5 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        5,
+       6,
+       7,
+       8 
+],
+"xlab": [
+ "5",
+"6",
+"7",
+"8" 
+],
+"xrange": [     4.12,     8.08 ],
+"xline": false,
+"xticks": true,
+"y": [
+        2,
+     2.5,
+       3,
+     3.5,
+       4,
+     4.5 
+],
+"ylab": [
+ "2.0",
+"2.5",
+"3.0",
+"3.5",
+"4.0",
+"4.5" 
+],
+"yrange": [     1.88,     4.52 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Sepal.Length",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Sepal.Width",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "5",
+"6",
+"7",
+"8" 
+],
+"ylabs": [
+ "2.0",
+"2.5",
+"3.0",
+"3.5",
+"4.0",
+"4.5" 
+],
+"title": "Sepal Data: Click a dot to select Species",
+"title_size": "14.4pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_point_sepalPlot" 
+] 
+},
+"petalPlot": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "Species": {
+ "guide": "legend",
+"geoms": "point",
+"title": "Species",
+"class": "Species",
+"selector": "Species",
+"is_discrete": true,
+"legend_type": "fill",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pointfill": "#FF0000",
+"pointshape":       21,
+"pointcolour": "#000000",
+"pointsize":        4,
+"pointstroke":      0.5,
+"label": "setosa" 
+},
+{
+ "pointfill": "#00FF00",
+"pointshape":       21,
+"pointcolour": "#000000",
+"pointsize":        4,
+"pointstroke":      0.5,
+"label": "versicolor" 
+},
+{
+ "pointfill": "#0000FF",
+"pointshape":       21,
+"pointcolour": "#000000",
+"pointsize":        4,
+"pointstroke":      0.5,
+"label": "virginica" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        2,
+       4,
+       6 
+] 
+],
+"y": [
+ [
+        0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7 
+] 
+],
+"y": [
+ [
+        0,
+    0.25,
+     0.5,
+    0.75,
+       1,
+    1.25,
+     1.5,
+    1.75,
+       2,
+    2.25,
+     2.5 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        2,
+       4,
+       6 
+],
+"xlab": [
+ "2",
+"4",
+"6" 
+],
+"xrange": [    0.705,    7.195 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+     0.5,
+       1,
+     1.5,
+       2,
+     2.5 
+],
+"ylab": [
+ "0.0",
+"0.5",
+"1.0",
+"1.5",
+"2.0",
+"2.5" 
+],
+"yrange": [    -0.02,     2.62 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Petal.Length",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Petal.Width",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "2",
+"4",
+"6" 
+],
+"ylabs": [
+ "0.0",
+"0.5",
+"1.0",
+"1.5",
+"2.0",
+"2.5" 
+],
+"title": "Petal Data: Showing Selected Species Only",
+"title_size": "14.4pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom2_point_petalPlot" 
+] 
+} 
+},
+"title": "Iris Linked Brushing Demo" 
+}
