@@ -1,0 +1,236 @@
+{
+ "geoms": {
+ "geom1_point_point": {
+ "geom": "point",
+"classed": "geom1_point_point",
+"aes": {
+ "x": "x",
+"y": "y",
+"colour": "group",
+"clickSelects": "group",
+"showSelected1": "group" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        4,
+"clickSelects": "group",
+"showSelected": "group",
+"help_clickSelects": "group",
+"help_showSelected": "group" 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"clickSelects": "character",
+"showSelected1": "character",
+"PANEL": "integer",
+"group": "character",
+"fill": "rgb" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"selectors": {
+ "group": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"clickSelects": true,
+"showSelected": true,
+"selected": [ "Left", "Right" ],
+"levels": [ "Left", "Right" ],
+"update": [
+ "geom1_point_point" 
+] 
+} 
+},
+"plots": {
+ "point": {
+ "panel_margin_lines":     0.25,
+"legend": {
+ "group": {
+ "guide": "legend",
+"geoms": "point",
+"title": "group",
+"class": "group",
+"selector": "group",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "8.8pt",
+"title_size": "11pt",
+"entries": [
+ {
+ "pointcolour": "#F8766D",
+"pointshape":       19,
+"pointsize":        4,
+"pointstroke":      0.5,
+"label": "Left" 
+},
+{
+ "pointcolour": "#00BFC4",
+"pointshape":       19,
+"pointsize":        4,
+"pointstroke":      0.5,
+"label": "Right" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+     2.5,
+       5,
+     7.5 
+] 
+],
+"y": [
+ [
+        0,
+       1 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+    1.25,
+     2.5,
+    3.75,
+       5,
+    6.25,
+     7.5,
+    8.75 
+] 
+],
+"y": [
+ [
+     -0.5,
+       0,
+     0.5,
+       1,
+     1.5 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        0,
+     2.5,
+       5,
+     7.5 
+],
+"xlab": [
+ "0.0",
+"2.5",
+"5.0",
+"7.5" 
+],
+"xrange": [    -0.45,     9.45 ],
+"xline": true,
+"xticks": true,
+"y": [
+        0,
+       1 
+],
+"ylab": [
+ "0",
+"1" 
+],
+"yrange": [ -0.9571741, 1.716826 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "x",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "y",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "0.0",
+"2.5",
+"5.0",
+"7.5" 
+],
+"ylabs": [
+ "0",
+"1" 
+],
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_point_point" 
+] 
+} 
+},
+"source": "https://github.com/aakritixyz/ten-points-animint",
+"title": "Ten Random Points (Animint2)" 
+}
