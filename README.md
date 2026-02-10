@@ -37,7 +37,7 @@ This repository contains all my Animint projects, organized by difficulty. Click
   - Source Code: [GitHub](https://github.com/aakritixyz/rosling-bubbles-test)
  
 ## Medium-Hard
-- **Animint Gallery 
+- **Animint Gallery**
   - Gallery Link: [Live](https://aakritixyz.github.io/animint-gallery/)  
   - Repository: [GitHub](https://github.com/aakritixyz/animint-gallery)
  
