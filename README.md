@@ -40,7 +40,10 @@ This repository contains all my Animint projects, organized by difficulty. Click
 - **Animint Gallery**
   - Gallery Link: [Live](https://aakritixyz.github.io/animint-gallery/)  
   - Repository: [GitHub](https://github.com/aakritixyz/animint-gallery)
- 
+
+## Hard
+  - Youtube Video: [Video](https://youtu.be/PX-oqmQmqaE)  
+  - PR: [PR](https://github.com/animint/animint2/pull/303)
 ---
 
 
